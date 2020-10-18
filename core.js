@@ -7,7 +7,7 @@ require("moment-duration-format");
 const db = require("quick.db")
 
 Client.on('ready', function() {
-    Client.user.setActivity("chosen", {type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+    Client.user.setActivity("dm me for 24/7 hosting", {type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
     console.log('selfbot ready');
     console.log(`logged in as ${Client.user.tag}`)
 });
